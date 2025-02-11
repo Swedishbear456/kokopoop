@@ -1,29 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Museum of ZombieJon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        /* Set background color for the whole page */
         body {
+            background-color: #E3BFBC; /* Dark gray, change to any color */
+            color: white; /* Makes text readable on dark background */
             font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* Style for the navigation bar */
+        .navbar {
+            background-color: #570000; /* Change to any color */
+            overflow: hidden;
+            padding: 0px;
             text-align: center;
-            padding: 50px;
-            background-color: #ffffff;
         }
-        h1 {
-            color: #333;
+        
+        /* Style for the navigation links */
+        .navbar a {
+            color: #280000;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            font-size: 18px;
         }
-        p {
-            font-size: 20px;
-            color: #555;
+
+        /* Change link color when hovered */
+        .navbar a:hover {
+            background-color: gray;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>The Museum of ZombieJon</h1>
-    <p>Welcome to the official website of the Museum of ZombieJon!</p>
-    <img src="Screenshot_20240804_202444_Gallery.jpg" alt="Mr.Jon" width="300">
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Jonslinks.html">Jons Links</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Page Content -->
+    <h1 style="text-align: center; color: #280000;">Welcome to the Museum of ZombieJon</h1>
+    <img src="Screenshot_20240804_202444_Gallery.jpg" alt="mr.jon" style="display: block; margin: 20px auto; width: 300px; margin-top: 20px;">
 
 </body>
 </html>
